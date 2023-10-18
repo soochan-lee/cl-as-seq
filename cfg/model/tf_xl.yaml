@@ -1,0 +1,7 @@
+include: cfg/model/tf.yaml
+
+tf_layers: 4
+tf_heads: 16
+hidden_dim: 1024
+tf_ff_dim: 2048
+attn_loss_heads: 8

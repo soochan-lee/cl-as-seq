@@ -1,0 +1,12 @@
+# Data
+dataset: sine
+input_type: vector  # image or vector
+output_type: vector  # label or vector
+output_activation: none  # none or tanh
+
+tasks: 20
+train_shots: 5
+test_shots: 5
+
+x_dim: 50
+y_dim: 50

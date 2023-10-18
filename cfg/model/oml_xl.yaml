@@ -1,0 +1,13 @@
+include: cfg/model/base.yaml
+
+model: OML
+
+# Class representation
+y_vocab: null
+y_len: 1
+
+# OML
+inner_lr: 0.03
+learnable_lr: True
+fast_dim: 2048
+fast_layers: 4

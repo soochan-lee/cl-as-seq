@@ -1,0 +1,15 @@
+# Data
+dataset: casia_rot
+input_type: image  # image or vector
+output_type: vector  # class or vector
+output_activation: angle  # none or tanh or angle
+meta_test_tasks: 1000
+
+tasks: 20
+train_shots: 5
+test_shots: 5
+
+x_c: 1
+x_h: 32
+x_w: 32
+y_dim: 2

@@ -1,0 +1,13 @@
+# Data
+dataset: cifar100
+input_type: image  # image or vector
+output_type: class  # class or vector
+meta_test_tasks: 40
+
+tasks: 20
+train_shots: 5
+test_shots: 5
+
+x_c: 3
+x_h: 32
+x_w: 32

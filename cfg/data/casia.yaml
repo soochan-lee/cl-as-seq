@@ -1,0 +1,13 @@
+# Data
+dataset: casia
+input_type: image  # image or vector
+output_type: class  # class or vector
+meta_test_tasks: 1000
+
+tasks: 20
+train_shots: 5
+test_shots: 5
+
+x_c: 1
+x_h: 32
+x_w: 32

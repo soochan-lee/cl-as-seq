@@ -1,0 +1,11 @@
+include: cfg/model/base.yaml
+
+model: ANML
+
+# Class representation
+y_vocab: null
+y_len: 1
+
+# ANML
+inner_lr: 0.01
+learnable_lr: True

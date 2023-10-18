@@ -1,0 +1,4 @@
+include: cfg/model/base.yaml
+
+model: ClassIncrementalModel
+cil_core: PrototypicalNetwork

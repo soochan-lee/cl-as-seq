@@ -1,0 +1,4 @@
+include: cfg/model/tf.yaml
+
+x_encoder: ResNetEncoder
+resnet_layers: [2, 2, 2, 2]  # ResNet-18

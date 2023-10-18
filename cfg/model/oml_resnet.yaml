@@ -1,0 +1,14 @@
+include: cfg/model/base.yaml
+
+model: OML
+
+x_encoder: ResNetEncoder
+resnet_layers: [2, 2, 2, 2]  # ResNet-18
+
+# Class representation
+y_vocab: null
+y_len: 1
+
+# OML
+inner_lr: 0.03
+learnable_lr: True

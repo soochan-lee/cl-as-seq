@@ -1,0 +1,14 @@
+include: cfg/model/tf.yaml
+
+# ContinualTransformer
+tf_attn: favor  # vanilla or elu (Linear Transformer) or favor (Performer)
+qk_dim: 128
+v_dim: 512
+
+# Favor
+favor_dim: 128
+favor_stabilize: True
+favor_redraw: 1000000000  # never redraw
+
+distributed_loss: True
+distributed_loss_steps: 10000
